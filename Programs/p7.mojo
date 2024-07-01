@@ -7,20 +7,21 @@ def main():
     inp = py.import_module('builtins')
 
     print("Enter mark for subject 1: ")
-    sub1 = inp.input("Enter a digit: ")
+    sub1 = inp.float(inp.input("Enter a digit: "))
     print("Enter mark for subject2: ")
-    sub2 = inp.input("Enter a digit: ")
+    sub2 = inp.float(inp.input("Enter a digit: "))
     print("Enter mark for subject3: ")
-    sub3 = inp.input("Enter a digit: ")
+    sub3 = inp.float(inp.input("Enter a digit: "))
     print("Enter mark for subject4: ")
-    sub4 = inp.input("Enter a digit: ")
+    sub4 = inp.float(inp.input("Enter a digit: "))
     print("Enter mark for subject5: ")
-    sub5 = inp.input("Enter a digit: ")
+    sub5 = inp.float(inp.input("Enter a digit: "))
 
 
     total = sub1 + sub2 + sub3 + sub4 + sub5
+    print(total)
 
-    average = total // 5
+    average = inp.float(total / 5)
 
     if average >= 90:
         grade =  "A"
