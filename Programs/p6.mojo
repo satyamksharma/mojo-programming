@@ -1,0 +1,1 @@
+#6. WAP to print the substring form the given string using slice operator and strtuple.

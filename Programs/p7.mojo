@@ -1,0 +1,1 @@
+#7. WAP to calculate the grade of a student by reading 5 subject marks and calculate average.

@@ -1,0 +1,1 @@
+#5. WAP to print odd and even numbers from 1-100.
