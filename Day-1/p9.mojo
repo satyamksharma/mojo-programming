@@ -4,9 +4,7 @@ from python import Python as py
 
 
 def main():
-    inp = py.import_module('builtins')
 
-    expression = inp.input("Enter an expression to evaluate: ")
-    result = inp.eval(expression)
+    result = py.evaluate("128-65/88*5-3")
     print("The result of the expression is:", result)
     
